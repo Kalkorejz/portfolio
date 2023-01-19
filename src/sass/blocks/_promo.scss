@@ -1,0 +1,28 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url(/src/img/rabstol_net_brad_pitt_15.jpg) no-repeat 50%/cover;
+    padding-top: 205px;
+    &__title {
+        width: 530px;
+        margin-top: 10px;
+    }
+    &__subtitle {
+        position: relative;
+        padding-left: 10px;
+        @include before_circle;
+        z-index: 2;
+    }
+    &__btns {
+        display: flex;
+        margin-top: 25px;
+        width: 250px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link {
+        font-weight: 700;
+        text-decoration: none;
+        color: #000000;
+    }
+}
